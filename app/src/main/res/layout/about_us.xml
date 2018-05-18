@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:paddingTop="50dp">
+
+    <ImageView
+        android:id="@+id/about_title"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/wtf_cbanner" />
+
+    <TextView
+        android:id="@+id/about_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_title"
+        android:layout_centerHorizontal="true"
+        android:text="Version 4.06.2017_10a"
+        android:textColor="#E0E0E0"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_desc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_ver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="casual"
+        android:text="What The Food app is still in beta version, further work is in progress. Untested for public use."
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="6pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_dev"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="Developer Team:
+Fuad a.k.a Shifu@
+Krishna a.k.a Rizu
+Helmi a.k.a DawnX"
+        android:textAlignment="center"
+        android:textColor="#E0E0E0"
+        android:textSize="6pt" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_balik"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_dev"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="#e5e5e5"
+        android:elevation="5dp"
+        android:text="ORDER"
+        android:textColor="@color/colorPrimaryLight" />
+
+</RelativeLayout>

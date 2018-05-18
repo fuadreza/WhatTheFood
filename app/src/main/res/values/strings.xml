@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">WhatTheFood</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Order!!!</string>
+    <string name="slide_1_desc">Order What The Foods you want!!!</string>
+
+    <string name="slide_2_title">Pay!!!</string>
+    <string name="slide_2_desc">Pay What The Foods you buy!!!</string>
+
+    <string name="slide_3_title">Eat!!!</string>
+    <string name="slide_3_desc">Eat What The Foods you order!!!</string>
+
+    <string name="menu_food">Food</string>
+    <string name="menu_drink">Drink</string>
+    <string name="menu_dessert">Desert</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="food_subtitle">This season top 20 foods</string>
+    <string name="drink_subtitle">This season top 20 drinks</string>
+    <string name="dessert_subtitle">This season top 20 deserts</string>
+
+    <!-- Cover Food -->
+    <string-array name="coverFood">
+        <item>R.drawable.food01</item>
+        <item>R.drawable.food01</item>
+        <item>R.drawable.food01</item>
+        <item>R.drawable.food01</item>
+        <item>R.drawable.food01</item>
+        <item>R.drawable.food01</item>
+    </string-array>
+
+    <!-- Daftar Food -->
+    <string-array name="daftarFood">
+        <item>Nasi Goreng</item>
+        <item>Ayam Geprek</item>
+        <item>Sate Tulang</item>
+        <item>Soto Ayem</item>
+        <item>Lottteek</item>
+        <item>Ketupaat</item>
+    </string-array>
+
+    <!-- Daftar Drink -->
+    <string-array name="daftarDrink">
+        <item>Es The</item>
+        <item>Es Jeruk</item>
+        <item>Kopi S</item>
+        <item>Latte</item>
+        <item>Softdrink</item>
+        <item>Air Keran</item>
+    </string-array>
+
+    <!-- Daftar Dessert -->
+    <string-array name="daftarDessert">
+        <item>Tiramisu</item>
+        <item>Gethuk</item>
+        <item>Pudding</item>
+        <item>Permen</item>
+        <item>Rollcake</item>
+        <item>Taret</item>
+    </string-array>
+
+    <!-- Harga Food -->
+    <string-array name="dHargaFood">
+        <item>130.000</item>
+        <item>150.000</item>
+        <item>100.000</item>
+        <item>110.000</item>
+        <item>120.000</item>
+        <item>115.000</item>
+    </string-array>
+
+    <!-- Harga Drink -->
+    <string-array name="dHargaDrink">
+        <item>90.000</item>
+        <item>80.000</item>
+        <item>110.000</item>
+        <item>120.000</item>
+        <item>100.000</item>
+        <item>200.000</item>
+    </string-array>
+
+    <!-- Harga Dessert -->
+    <string-array name="dHargaDessert">
+        <item>100.000</item>
+        <item>110.000</item>
+        <item>120.000</item>
+        <item>130.000</item>
+        <item>140.000</item>
+        <item>150.000</item>
+    </string-array>
+
+</resources>

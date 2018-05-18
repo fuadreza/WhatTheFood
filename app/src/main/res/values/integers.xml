@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Harga Food -->
+    <integer-array name="hargaFood">
+        <item>130000</item>
+        <item>150000</item>
+        <item>100000</item>
+        <item>110000</item>
+        <item>120000</item>
+        <item>115000</item>
+    </integer-array>
+
+    <!-- Harga Drink -->
+    <integer-array name="hargaDrink">
+        <item>90000</item>
+        <item>80000</item>
+        <item>110000</item>
+        <item>120000</item>
+        <item>100000</item>
+        <item>200000</item>
+    </integer-array>
+
+    <!-- Harga Dessert -->
+    <integer-array name="hargaDessert">
+        <item>100000</item>
+        <item>110000</item>
+        <item>120000</item>
+        <item>130000</item>
+        <item>140000</item>
+        <item>150000</item>
+    </integer-array>
+</resources>
